@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "project": "ABIDE自闭症脑结构影像分析",
+    "date": "2026-03-03 10:57:58",
+    "data_source": "ABIDE Caltech站点",
+    "image_type": "T1结构像 (mprage.nii.gz)"
+  },
+  "sample_info": {
+    "n_subjects": 38,
+    "n_asd": 19,
+    "n_control": 19
+  },
+  "features": [
+    "mean_intensity",
+    "std_intensity",
+    "volume",
+    "asymmetry"
+  ],
+  "t_test_results": {
+    "mean_intensity": 0.0003,
+    "std_intensity": 0.0002,
+    "volume": 0.0011,
+    "asymmetry": 0.0896
+  },
+  "model_performance": {
+    "Random Forest": 0.733,
+    "SVM": 0.758,
+    "Logistic Regression": 0.812
+  },
+  "best_model": "Logistic Regression",
+  "best_auc": 0.812,
+  "feature_importance": {
+    "std_intensity": 0.283,
+    "volume": 0.256,
+    "mean_intensity": 0.244,
+    "asymmetry": 0.217
+  },
+  "files_generated": [
+    "features.csv",
+    "qc_report.csv",
+    "asymmetry_comparison.png",
+    "feature_importance.png",
+    "group_comparisons.png",
+    "results_summary.json"
+  ]
+}
