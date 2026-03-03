@@ -46,16 +46,5 @@
 
 ## 依赖库
 numpy, pandas, nibabel, scipy, scikit-learn, matplotlib,jupyter
-
-## 🚀 快速开始
-
-```bash
-# 克隆仓库
-git clone https://github.com/你的用户名/ABIDE-ASD-Analysis.git
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 下载数据（详见 data/README.md）
 # 运行分析
 jupyter notebook body.ipynb
